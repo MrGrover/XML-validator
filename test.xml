@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="EUC-JP" standalone="no" ?> 
+<!DOCTYPE note
+[
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<!-- This is a comment about how to open ( 
+<![CDATA[ ) and 
+close ( ]]> ) CDATA sections -->
+<?display table-view?>
+<?sort alpha-ascending?>
+<?textinfo whitespace is allowed ?>
+<?elementnames <fred>, <bert>, <harry> ?>
+<!-- This is a comment about how to open ( 
+<![CDATA[ ) an-d 
+close ( ]]> ) CDATA sections -->
+<!-- I really like having elements called <fred> in my 
+markup languages -->
+
+<!-- Comments can contain all sorts of- character literals
+including &, <, >, ' and". -->
+<!-- If entities are used inside comments ( &lt; for 
+example ) they are not expanded. -->
+<g:binary name="OrExpr" condition="&lt; 1">
+        <g:string>or</g:string>
+      </g:binary>
+
+
+
+
